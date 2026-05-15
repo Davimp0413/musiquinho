@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+body{
+    font-family: "Jersey 10", sans-serif;
+
+    background-image: url("retro-neon-music-streaming-background_8168-1660.avif");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
