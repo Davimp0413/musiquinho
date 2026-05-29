@@ -1,10 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
 
 body{
+    height: 100vh;
     font-family: "Jersey 10", sans-serif;
-
     background-image: url("retro-neon-music-streaming-background_8168-1660.avif");
     background-size: cover;
-    margin: 0;
-    padding: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.container{
+    background-color: rgb(116, 116, 116);
+    display: flex;
+    padding: 20px;
+    gap: 200px;
+    border-radius: 20px;
+    border: 15px solid rgba(102, 101, 101, 0.822);
+}
+.player-section{
+    display: flex;
+    background-color:rgb(136, 136, 136);
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.vinyl{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(201, 201, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.controls {
+    display: flex;
+    gap: 15px;
+}
+#botao {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(204, 204, 204);
+}
+.album-art{
+    width: 75px;
+    height: 75px;
+    background-color: rgb(53, 53, 53);
+    border-radius: 50%;
+    display: flex;
+    
 }
